@@ -1,2 +1,80 @@
-# Leap-Motion-Sample
-A simple leap motion starter code for hacking in nodeJS
+
+
+### Frame object
+
+
+```javascript
+frame:
+   { valid: true,
+     id: 140879,
+     timestamp: 166748802091,
+     hands: [ [Object] ],
+     handsMap: { '113': [Object] },
+     pointables: [ [Circular], [Object], [Object], [Object], [Object] ],
+     tools: [],
+     fingers: [ [Circular], [Object], [Object], [Object], [Object] ],
+     interactionBox:
+      { valid: true,
+        center: [Object],
+        size: [Object],
+        width: 235.247,
+        height: 235.247,
+        depth: 147.751 },
+     gestures: [],
+     pointablesMap:
+      { '1130': [Circular],
+        '1131': [Object],
+        '1132': [Object],
+        '1133': [Object],
+        '1134': [Object] },
+     _translation: [ -51.1624, 48.1561, 76.1561 ],
+     _rotation:
+      [ 0.973915,
+        0.216955,
+        0.066483,
+        -0.211326,
+        0.973928,
+        -0.0824999,
+        -0.0826484,
+        0.0662983,
+        0.994371 ],
+     _scaleFactor: 1.34978,
+     data:
+      { currentFrameRate: 105.274,
+        devices: [],
+        gestures: [],
+        hands: [Object],
+        id: 140879,
+        interactionBox: [Object],
+        pointables: [Object],
+        r: [Object],
+        s: 1.34978,
+        t: [Object],
+        timestamp: 166748802091 },
+     type: 'frame',
+     currentFrameRate: 105.274,
+     controller:
+      { inNode: '0.12.0',
+        animationFrameRequested: false,
+        onAnimationFrame: [Function],
+        suppressAnimationLoop: true,
+        loopWhileDisconnected: true,
+        frameEventName: 'deviceFrame',
+        useAllPlugins: false,
+        history: [Object],
+        lastFrame: [Circular],
+        lastValidFrame: [Circular],
+        lastConnectionFrame: [Circular],
+        accumulatedGestures: [],
+        checkVersion: true,
+        connectionType: [Function],
+        connection: [Object],
+        streamingCount: 1,
+        devices: [Object],
+        plugins: {},
+        _pluginPipelineSteps: {},
+        _pluginExtendedMethods: {},
+        _events: [Object] },
+     historyIdx: 1370 } }
+
+```
